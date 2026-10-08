@@ -105,9 +105,9 @@ The alarm, lighting, audio, and main interface will work without an app or inter
 
 ## Current Status
 
-Rev A of all three custom PCBs is complete, and the boards are now on the way for assembly and bring-up.
+Rev A of all three custom PCBs is complete, and initial hardware bring-up of the main control board has been successful. Power checks and basic MCU functionality have been verified, with a working blinky program.
 
-The next phase is first power-up and subsystem-by-subsystem testing. I plan to validate the power architecture first, then bring up the major interfaces individually before integrating the display, storage, audio, lighting, controls, battery operation, and firmware into the first complete MVP.
+The current phase focuses on subsystem-by-subsystem testing and validation, including the lighting board, physical controls, e-paper display, microSD storage, audio, and battery management. Each subsystem will be tested independently before integrating everything into the first complete MVP.
 
 After the first successful MVP, I plan to build up to two additional units, depending on available parts, for a small beta-testing period with multiple users. This will give me up to three units in total and help validate the hardware and interface in everyday use before making decisions for the next revision.
 
